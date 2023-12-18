@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * w_add - adds the stack's top two components.
+ * f_add - adds the stack's top two components.
  * @head: stack head
  * @counter: line_number
  * Return: no return
 */
-void w_add(stack_t **head, unsigned int counter)
+void f_add(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int len = 0, aux;
